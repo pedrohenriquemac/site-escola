@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <style>
+        /* Estilos CSS (opcional) */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        h1 {
+            background-color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <br></br>
+    <h1>Fale Conosco - Yvone Pimentel</h1>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <form action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="celular">Celular:</label>
+        <input type="tel" id="celular" name="celular" pattern="[0-9]{10}" placeholder="Digite apenas números" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
